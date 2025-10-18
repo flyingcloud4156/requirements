@@ -217,4 +217,5 @@
 力求增加覆盖率
 
 力求增加覆盖率
-test需要分文件 格式规范 更加清晰 class上需要有javadoc 英文注释。
+test需要分文件 格式规范 更加清晰 class上需要有javadoc 英文注释。测试之后mvn clean install pmd and checkstyle
+  注意不是蛮力写测试 你是需要先分析缺少什么case 导致覆盖率没上来。我追求覆盖率
